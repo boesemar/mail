@@ -4,7 +4,7 @@ require 'mail/version'
 
 Gem::Specification.new do |s|
   s.name        = "mail"
-  s.version     = Mail::VERSION::STRING
+  s.version     = "2.6.0-bones"
   s.author      = "Mikel Lindsaar"
   s.email       = "raasdnil@gmail.com"
   s.homepage    = "http://github.com/mikel/mail"
@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.platform = Gem::Platform::RUBY
-  s.has_rdoc = true
   s.extra_rdoc_files = ["README.md", "CONTRIBUTING.md", "CHANGELOG.rdoc", "TODO.rdoc"]
 
   s.add_dependency('mime-types', "~> 1.16")
